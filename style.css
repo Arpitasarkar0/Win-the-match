@@ -4,6 +4,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* media query for mobile phone  */
+@media only screen and (max-width: 600px) {
+   .middle-banner{
+       grid-template-columns: repeat(1, 1fr);
+   }
+  }
 
 /* Header style  */
 nav{
@@ -58,6 +64,7 @@ font-weight: 500;
     width: 556.01px;
     height: 438px; 
 }
+
 .button a{
     color: white;
     font-weight: 500;
@@ -67,14 +74,20 @@ font-weight: 500;
     width: 168px;
     padding: 10px 24px;
     margin-top: 24px;
-   
+    
+    transition: background-color 4s,ease ;
 }
+
+
+.button a:hover {
+ background-color: yellowgreen;
+} 
 /* middle banner style  */
 .middle-banner{
    
 
     display: grid;
-    flex-direction: row;
+  
 grid-row-gap: 27px;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
@@ -129,7 +142,41 @@ margin: 0;
 .third-banner-image img{
     width: 567px;
     height: 427px;
+
 }
+/* gallery section style  */
+#gallery{
+    font-size: 50px;
+    text-align: center;
+}
+.picture{
+    display: flex;
+  margin-right: 40px;
+  transition: transform .2s;
+}
+.picture img{
+    width: 500px;
+    margin-left: 10px;
+}
+.picture-2{
+    display: flex;
+    margin-right: 40px;
+    transition: transform .2s;
+}
+.picture-2 img{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.picture img:hover {
+  transform: scale(1.2);
+}
+.picture-2 img:hover {
+    transform: scale(1.2);
+  }
+
+
 /* Last part style  */
 .last-part-img{
     align-items: center;
