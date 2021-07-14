@@ -63,10 +63,11 @@ font-weight: 500;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
-    margin-left: 156px;
     background-color:#E02C6D ;
     width: 168px;
     padding: 10px 24px;
+    margin-top: 24px;
+   
 }
 /* middle banner style  */
 .middle-banner{
@@ -101,7 +102,58 @@ padding: 15px;
 margin: 0;
 
 }
+.details{
+    font-size: 16px; 
+    color: #6C6C6C; 
+}
 .name-details p{
     font-size: 16px;
     color: #6C6C6C;
+}
+/* Third banner style  */
+.third-banner{
+    display: flex;
+    margin: 165px 156px 156px 180px ;
+    
+}
+.third-banner-title{
+    width: 50%;
+}
+#headline{
+    font-size: 48px;
+    font-weight: bold;
+}
+.third-banner-image{
+    width: 50%;
+}
+.third-banner-image img{
+    width: 567px;
+    height: 427px;
+}
+/* Last part style  */
+.last-part-img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 475px;
+    margin-right: 481px;
+}
+.last-part img{
+    width: 483.87px;
+height: 110px;
+  
+}
+.logo{
+    color: #969BAB; ;
+    font-size: 32px;
+    margin-left: 631px;
+    margin-right: 638px;
+
+}
+.logo i{
+    margin-right: 6px;
+  
+}
+footer p{
+    margin-left: 600px;
+ 
 }
