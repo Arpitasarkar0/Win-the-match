@@ -6,13 +6,22 @@ body{
 }
 /* media query for mobile phone  */
 @media only screen and (max-width: 600px) {
-   .middle-banner{
-       grid-template-columns: repeat(1, 1fr);
-   }
+   
+  
+  .main .header-style{
+    display:block
   }
-
+  .header a{
+      display: block;
+      padding: 5px;
+      font-size: 10px;
+  }
+  .middle-banner{
+      grid-template-columns: repeat(1, 1fr);
+  }
+  }
 /* Header style  */
-nav{
+.main{
     background-color:#2D25A0 ;
     width: 1440px;
 height: 677px;
